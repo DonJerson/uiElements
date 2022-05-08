@@ -1,8 +1,11 @@
 {
   "name": "@donjerson2/uielements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "keywords": [],
+  "plugins": [
+    "@babel/plugin-syntax-jsx"
+  ],
   "main": "src/index.js",
   "dependencies": {
     "react": "18.0.0",
