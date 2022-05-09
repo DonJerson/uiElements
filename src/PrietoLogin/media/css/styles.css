@@ -1,0 +1,502 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.74);
+  z-index: 30;
+}
+p {
+  margin: 0px;
+}
+.centerCard {
+  min-width: 300px;
+  width: 80%;
+  min-height: 300px;
+  margin-top: 28px;
+  max-width: 80%;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.centerCard2 {
+  margin-top: 28px;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 20px;
+}
+.mobileLogin {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 604px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.modalLoginCard {
+  position: absolute;
+  box-sizing: content-box;
+  width: 600px;
+  height: 604px;
+  background: #ffffff;
+  border-radius: 20px;
+  display: block !important;
+}
+.modalLoginCardMobile {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  background: #ffffff;
+  border-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+.mobileTitle {
+  position: absolute;
+  top: 1.5rem;
+  font-family: "Roboto", sans-serif, bold;
+  font-weight: 600 !important;
+  font-size: 36px !important;
+  color: #1f1f1f;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  background: #fff;
+}
+
+.leftWing {
+  display: flex;
+  display: flex;
+  justify-content: space-evenly;
+}
+.rightWing {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.background {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  background-size: cover;
+  height: 70vh;
+}
+.mainTitleMobile {
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: Neuton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+
+  color: #ffffff;
+  max-width: 50rem;
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.mobileLogo {
+  position: absolute;
+  top: 0px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 60px;
+  width: 100vw;
+}
+.mainTitle {
+  width: auto;
+  margin: 0px;
+  margin-bottom: 15px;
+  font-family: Neuton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.indexNavBar {
+  align-items: center;
+  background-color: white;
+  z-index: 2;
+  top: 0px;
+  min-width: 100vw;
+  position: fixed;
+  display: grid;
+  height: 85px;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-template-rows: 85px;
+}
+.navBar {
+  background-color: white;
+  z-index: 2;
+  top: 0px;
+  min-width: 100vw;
+  position: fixed;
+  display: grid;
+  height: 60px;
+  grid-template-columns: 1fr 3fr 3fr 3fr;
+  grid-template-rows: 60px;
+}
+.invisible {
+  border: 0px;
+  outline: 0px;
+}
+.mainInput {
+  margin-left: 4px;
+  width: 80%;
+  border: 0px;
+}
+.mainInput:focus {
+  outline: 0px !important;
+  border: 0px !important;
+}
+.searchIcon {
+  margin-left: 5px;
+}
+.offButton {
+  /* Rectangle 45 */
+  display: flex;
+  align-items: center;
+  width: 122.44px;
+  height: 37.29px;
+  border: 0.2px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.botones {
+  display: flex;
+  position: static;
+  width: 246px;
+  height: 37.29px;
+}
+.smallButtonText {
+  font-family: "Roboto", sans-serif, medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.025em;
+}
+.grey1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.025em;
+
+  color: #404040;
+}
+.white {
+  color: #ffffff;
+}
+.buttonClass {
+  cursor: pointer;
+}
+button {
+  color: white !important;
+  border-color: white !important;
+  outline: 0px;
+  cursor: pointer;
+  padding: 0px;
+  border-width: 0px;
+}
+button:active {
+  outline: 0px;
+}
+.offButton:hover {
+  background: #469c189f !important;
+}
+/* .onButton:hover{
+  background: #2863089f !important;
+} */
+.offButton .smallButtonText {
+  color: grey;
+}
+.onButton {
+  align-items: center;
+  /* Rectangle 45 */
+  width: 122.44px;
+  height: 37.29px;
+  background: #37a000;
+
+  border-radius: 10px;
+  display: flex;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+}
+.alignCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.smallText1 {
+  margin: 5px;
+}
+.bottomCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  height: 44.85px;
+
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.registerText {
+  font-family: Puritan;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.registerButton {
+  width: 100px;
+  height: 50px;
+  background: #ffffff;
+  border: 0.1px solid #000000;
+  border-radius: 30px;
+}
+.mainHover {
+  padding: 8px;
+  display: none;
+  position: absolute;
+  top: 43px;
+  right: 0px;
+  z-index: 10;
+  width: 182px;
+  background: #ffffff;
+  border: 0.2px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.profilePicture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.selectedBorder {
+  border: 4px solid #37a000;
+}
+.profileButton:hover .mainHover {
+  display: block;
+}
+.resultsText {
+  font-family: "Roboto", sans-serif, medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  /* identical to box height */
+  margin: 0px !important;
+  letter-spacing: 0.025em;
+
+  color: #000000;
+}
+
+.optionBox {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 46px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.wideText {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: rgba(255, 255, 255, 0.9);
+}
+.wideButton {
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background: #37a000;
+  border-radius: 5px;
+}
+.upperFieldBox {
+  border-bottom: 0px !important;
+  border-radius: 8px 8px 0px 0px !important;
+}
+.smallText2 {
+  width: 66px;
+  height: 14px;
+
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.bottomFieldBox {
+  border-radius: 0px 0px 8px 8px !important;
+}
+
+.normalText::placeholder {
+  z-index: 3;
+  height: 19px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+.fieldBox {
+  display: flex;
+  padding-left: 1rem;
+  align-items: center;
+  width: 50vw;
+  height: 57px;
+  width: 100%;
+  border: 0.8px solid #000000;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transform: rotate(0);
+}
+.closeIcon {
+  position: absolute;
+  left: 18px;
+}
+.secondTitle {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1f1f1f;
+}
+.upperCard2 {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.upperCard {
+  position: absolute;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border-bottom: 0.1px solid black;
+}
+.normalText {
+  height: 19px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+/* BOTTOM */
+.middleIcon {
+  display: flex;
+  justify-content: center;
+}
+.selected {
+  fill: #37a000 !important;
+}
+.floatingIcon {
+  position: fixed;
+  z-index: 30;
+  bottom: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 50px;
+  border-radius: 30px;
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  background-color: white;
+}
+.bottomNavbar2 {
+  z-index: 5;
+  width: 100%;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  height: 65px;
+  background-color: white;
+  border-top: 0.2px solid #484848;
+  box-sizing: border-box;
+  position: fixed !important;
+  bottom: 0px !important;
+
+  color: white;
+  display: grid;
+  grid-template-columns: 2fr auto 2fr;
+}
+
+.bottomNavbar {
+  z-index: 10;
+  padding-bottom: 8px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-top: 0.2px solid #484848;
+  position: fixed;
+  bottom: 0px;
+  height: 65px;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(5, 20vw);
+}
+
+.bottomIcon {
+  text-align: center;
+  position: relative;
+}
