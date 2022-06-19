@@ -155,12 +155,12 @@ form {
   border: 0px;
   outline: 0px;
 }
-.mainInput {
+.greenInput {
   margin-left: 4px;
   width: 80%;
   border: 0px;
 }
-.mainInput:focus {
+.greenInput:focus {
   outline: 0px !important;
   border: 0px !important;
 }
